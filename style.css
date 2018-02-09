@@ -1,0 +1,10 @@
+body{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#display_username,
+#display_password{
+    display: none;
+}

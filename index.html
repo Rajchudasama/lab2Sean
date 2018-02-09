@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab1</title>
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="lab1.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Login Box</h1>
+        </header>
+        <main>
+            <form action="index.html" 
+                  method="post" 
+                  class="login-form__form_input" id="frm_main">
+                <fieldset>
+                    <legend>User Authentication</legend>
+                    <div>
+                        <label for="username" 
+                               class="login-form__label_username">
+                            Username
+                        </label>
+                        <input type="text" 
+                               id="username" 
+                               class="login-form__input_username" />
+                    </div>
+                    <div>
+                        <label for="password"
+                               class="login-form__label_password">
+                            Password
+                        </label>
+                        <input type="password" id="password" />
+                    </div>
+                    <button type="submit" 
+                            id="btn_login">Login</button>
+                </fieldset>
+            </form>
+                
+            <div id="display_username">User Name: <span id="output_username"></span></div>
+            <div id="display_password">Password: <span id="output_password"></span></div>
+        </main>
+    </body>
+</html>
