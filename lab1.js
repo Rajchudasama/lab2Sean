@@ -23,8 +23,6 @@ function init() {
 					disPass.innerHTML=users.Password;
 					disUser.style.display="block";
 					disPass.style.display="block";
-					console.log(disUser);
-					
 				}
 				else
 				{
@@ -35,10 +33,10 @@ function init() {
 			else
 			{
 				if(!_user){
-					u.style.backgroundColor="red";
+					u.style.backgroundColor="orange";
 				}
 				if(!_password){
-					p.style.backgroundColor="red";
+					p.style.backgroundColor="orange";
 				}
 				
 			}
